@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AECC13
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAppSample", "MVCAppSample\MVCAppSample.csproj", "{45384213-7951-42C8-A177-B62CDAD52261}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{201BDD60-7F8C-4DF5-BB4F-E39A7BFEE927}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{201BDD60-7F8C-4DF5-BB4F-E39A7BFEE927}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{201BDD60-7F8C-4DF5-BB4F-E39A7BFEE927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45384213-7951-42C8-A177-B62CDAD52261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45384213-7951-42C8-A177-B62CDAD52261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45384213-7951-42C8-A177-B62CDAD52261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45384213-7951-42C8-A177-B62CDAD52261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
