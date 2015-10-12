@@ -40,6 +40,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MeadCo.ScriptXClientServerControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MeadCoScriptXWebForms.1.0.2\lib\net40\MeadCo.ScriptXClientServerControl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MeadCo.ScriptXConfigHandler, Version=7.5.6.19, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MeadCoScriptXInstallers.7.6.0\lib\net40\MeadCo.ScriptXConfigHandler.dll</HintPath>
       <Private>True</Private>
@@ -108,6 +112,11 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\MeadCo.ScriptX\images\activexfiltering.png" />
+    <Content Include="Content\MeadCo.ScriptX\images\infobar.png" />
+    <Content Include="Content\MeadCo.ScriptX\images\infobar8.png" />
+    <Content Include="Content\MeadCo.ScriptX\images\needsdesktop.png" />
+    <Content Include="Content\MeadCo.ScriptX\images\notificationbar.png" />
     <Content Include="Content\MeadCo.ScriptX\installers\smsx.cab" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -116,6 +125,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\MeadCo.ScriptX\installers\scriptx.msi" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="MeadCo.ScriptX\InstallFailed.aspx" />
+    <Content Include="MeadCo.ScriptX\installFailUI.ascx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
